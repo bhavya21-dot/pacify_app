@@ -41,6 +41,7 @@ Node.js and npm (for gh-pages deployment, if you choose to use it)
 
 1. Clone the Repository
 git clone https://github.com/YourGitHubUsername/pacify_app.git
+
 cd pacify_app
 
 (Replace YourGitHubUsername with your actual GitHub username)
@@ -49,6 +50,7 @@ cd pacify_app
 flutter pub get
 
 3. Configure API Key (Crucial!)
+
 The app uses the OpenWeatherMap API. You'll need to obtain your own API key and configure it:
 
 Get an API Key: Sign up at OpenWeatherMap to get your free API key.
@@ -64,6 +66,7 @@ Replace YOUR_ACTUAL_OPENWEATHERMAP_API_KEY with the key you obtained.
 Ensure .env is ignored: Verify that .env is listed in your .gitignore file to prevent it from being committed to version control.
 
 4. Add Audio Assets
+
 The app plays ambient soundscapes from local audio files.
 
 Create folder: In the root of your pacify_app project, create a new folder: assets/audio/.
@@ -75,4 +78,5 @@ Note: Ensure the filenames match those specified in lib/constants.dart.
 You might need to find royalty-free audio or create your own.
 
 5. Run the Application
+
 flutter run
