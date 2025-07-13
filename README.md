@@ -1,4 +1,5 @@
 Pacify App
+
 🍃 Your Personalized Soundscape Companion
 Pacify App is a Flutter application designed to bring tranquility to your day by generating unique soundscapes based on real-time weather conditions and time of day for a randomly selected global city. Whether it's the gentle patter of rain on a cloudy night or the distant hum of a city on a sunny day, Pacify creates an ambient audio experience tailored to the current atmospheric vibes.
 
